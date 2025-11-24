@@ -1,4 +1,7 @@
 import React from 'react';
+import teamimg from "../asserts/teamimg.png";
+
+
 
 const OurVisionSection: React.FC = () => {
     return (
@@ -28,7 +31,7 @@ const OurVisionSection: React.FC = () => {
                     {/* Image Column */}
                     <div>
                         <img 
-                            src="asserts/teamimg.png" 
+                            src={teamimg} 
                             alt="Our Vision"
                             className="w-full h-auto object-cover rounded-3xl shadow-xl"
                         />

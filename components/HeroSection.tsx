@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRightIcon } from './Icons';
+import logo from "../asserts/logo.jpeg"
 
 const ServicePill: React.FC<{ text: string, position: string }> = ({ text, position }) => (
   <div className={`absolute ${position} bg-gray-500 bg-opacity-50 backdrop-blur-sm text-white text-sm px-4 py-2 rounded-full shadow-lg`}>
@@ -37,7 +38,7 @@ const HeroSection: React.FC = () => {
           <div className="relative flex justify-center items-center w-full h-full min-h-[400px] md:min-h-[500px]">
             <div className="w-[350px] h-[350px] md:w-[500px] md:h-[500px] rounded-full overflow-hidden border-8 border-gray-800 shadow-2xl shadow-blue-500/20">
               <img
-                src="asserts/logo.jpeg"
+                src={logo}
                 alt="Astronaut looking at Earth from space"
                 className="w-full h-full object-cover scale-125"
               />
