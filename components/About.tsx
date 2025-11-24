@@ -25,7 +25,7 @@ const about: React.FC = () => {
                     </div>
                     <div>
                         <img 
-                            src="aboutimg1.png" 
+                            src="asserts/teamimg.png" 
                             alt="Our Team Working" 
                             className="rounded-lg shadow-md w-full h-auto object-cover"
                         />

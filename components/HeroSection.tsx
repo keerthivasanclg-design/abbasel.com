@@ -37,7 +37,7 @@ const HeroSection: React.FC = () => {
           <div className="relative flex justify-center items-center w-full h-full min-h-[400px] md:min-h-[500px]">
             <div className="w-[350px] h-[350px] md:w-[500px] md:h-[500px] rounded-full overflow-hidden border-8 border-gray-800 shadow-2xl shadow-blue-500/20">
               <img
-                src="WhatsApp Image 2025-10-25 at 14.59.55.jpeg"
+                src="asserts/logo.jpeg"
                 alt="Astronaut looking at Earth from space"
                 className="w-full h-full object-cover scale-125"
               />
