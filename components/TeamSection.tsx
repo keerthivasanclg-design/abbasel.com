@@ -1,5 +1,6 @@
 import React from 'react';
 import { FacebookIcon, InstagramIcon, XIcon, PinterestIcon } from './Icons';
+import logo from "../asserts/logo.jpeg"
 
 interface TeamMember {
   name: string;
@@ -11,23 +12,19 @@ const teamMembers: TeamMember[] = [
   {
     name: 'Nisaanth .M.S',
     role: 'As the founder of Abbasel Digital Marketing, I lead our team to deliver high-quality digital solutions that stand out.',
-    imageUrl: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-  },
+    imageUrl: logo},
   {
     name: 'Lenin.S',
     role: 'video editor at Abbasel Marketing. he brings brands to life through high-quality video content that engages and converts.',
-    imageUrl: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1888&auto=format=fit&crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-  },
+    imageUrl: logo},
   {
     name: 'Rithika. S',
     role: 'SEO expert who reach the right audience. She specializes in keyword research, on-page optimization, and performance tracking to boost organic growth.',
-    imageUrl: 'https://images.unsplash.com/photo-1554151228-14d9def656e4?q=80&w=1886&auto=format=fit&crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-  },
+     imageUrl: logo},
   {
     name: 'Keerthivasan. s',
     role: 'crafts compelling content that capture attention and deliver clear messages. His writing helps shape brand voice and drive audience connection across platforms..',
-    imageUrl: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1887&auto=format=fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-  },
+     imageUrl: logo},
 ];
 
 const TeamMemberCard: React.FC<{ member: TeamMember }> = ({ member }) => {

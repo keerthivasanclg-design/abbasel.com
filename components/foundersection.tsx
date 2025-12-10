@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRightIcon } from './Icons';
+import logo from "../asserts/logo.jpeg"
 
 const FounderSection: React.FC = () => {
   return (
@@ -8,7 +9,7 @@ const FounderSection: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center">
           <div className="w-full h-[600px]">
             <img
-              src="WhatsApp Image 2025-10-25 at 14.59.55.jpeg"
+              src={logo}
               alt="The founder of Abbasel Marketing with a colleague"
               className="w-full h-full object-cover"
             />

@@ -1,4 +1,10 @@
 import React from 'react';
+import marketingpage1 from "../asserts/marketingpage1.png"
+import marketingpage2 from "../asserts/marketingpage2.png"
+import marketingpage3 from "../asserts/marketingpage3.png"
+import marketingpage4 from "../asserts/marketingpage4.png"
+
+
 
 const MarketingProcessSection: React.FC = () => {
   return (
@@ -16,7 +22,7 @@ const MarketingProcessSection: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div>
             <img 
-              src="marketingpage1.png" 
+              src={marketingpage1} 
               alt="Marketing process charts" 
               className="rounded-lg shadow-lg w-full h-auto object-cover"
             />
@@ -34,7 +40,7 @@ const MarketingProcessSection: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div>
             <img 
-              src="marketingpage2.png" 
+              src={marketingpage2} 
               alt="Marketing process charts" 
               className="rounded-lg shadow-lg w-full h-auto object-cover"
             />
@@ -53,7 +59,7 @@ Once we have the strategy, our team creates engaging content, visuals, and ads t
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div>
             <img 
-              src="marketingpage3.png" 
+              src={marketingpage3}
               alt="Marketing process charts" 
               className="rounded-lg shadow-lg w-full h-auto object-cover"
             />
@@ -71,7 +77,7 @@ Campaign Execution</h3>
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div>
             <img 
-              src="marketingpage4.png" 
+              src={marketingpage4}
               alt="Marketing process charts" 
               className="rounded-lg shadow-lg w-full h-auto object-cover"
             />

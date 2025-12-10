@@ -1,11 +1,15 @@
 import React from 'react';
 import BlogPostCard from '@/components/BlogPostCardProps'
+import logo from "../asserts/logo.jpeg"
+import blogimg1 from "../asserts/blogimg1.png"
+import blogimg2 from "../asserts/blogimg2.png"
+
 
 const posts = [
   {
-    imageSrc: 'blogimg1.png',
+    imageSrc: blogimg1,
     author: 'Abbasel Digital Marketing',
-    avatarSrc: 'WhatsApp Image 2025-10-25 at 14.59.55.jpeg',
+    avatarSrc: logo,
     date: 'Jul 28',
     readTime: '3 min read',
     title: 'Top 10 SEO Trends to Watch in 2025',
@@ -14,9 +18,9 @@ const posts = [
     comments: 0,
   },
   {
-    imageSrc: 'blogimg2.png',
+    imageSrc: blogimg2,
     author: 'Abbasel Digital Marketing',
-    avatarSrc: 'WhatsApp Image 2025-10-25 at 14.59.55.jpeg',
+    avatarSrc: logo,
     date: 'Jul 27',
     readTime: '2 min read',
     title: 'Is SEO Dead? Not Quite – Understanding the Shift in 2025',

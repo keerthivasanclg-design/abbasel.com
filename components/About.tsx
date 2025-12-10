@@ -1,4 +1,5 @@
 import React from 'react';
+import teamimg from "../asserts/teamimg.png"
 
 const about: React.FC = () => {
     return (
@@ -25,7 +26,7 @@ const about: React.FC = () => {
                     </div>
                     <div>
                         <img 
-                            src="asserts/teamimg.png" 
+                            src={teamimg} 
                             alt="Our Team Working" 
                             className="rounded-lg shadow-md w-full h-auto object-cover"
                         />

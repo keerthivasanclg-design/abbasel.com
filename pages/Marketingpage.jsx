@@ -6,6 +6,7 @@ import ImpactSection from '@/components/ImpactSection';
 import MarketingProcessSection from '@/components/MarketingProcessSection';
 import ModernMarketingSection from '@/components/ModernMarketingSection';
 import ModernMarketingCards from '@/components/ModernMarketingCards';
+import logo from "../asserts/logo.jpeg"
 
 const MarketingPage = () => {
   return (
@@ -26,7 +27,7 @@ const MarketingPage = () => {
             </div>
             <div className="flex justify-center items-center animate-fade-in-right">
               <img 
-                src="WhatsApp Image 2025-10-25 at 14.59.55.jpeg" 
+                src={logo} 
                 alt="Smartphone with social media icons" 
                 className="w-full max-w-lg"
               />

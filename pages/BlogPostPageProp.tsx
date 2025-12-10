@@ -1,4 +1,5 @@
 import React from 'react';
+import blogcard from "../asserts/blogcard.png"
 
 const Stat: React.FC<{ children: React.ReactNode }> = ({ children }) => (
     <div className="bg-blue-50 border-l-4 border-blue-500 text-blue-800 p-4 my-4 rounded-r-lg">
@@ -27,7 +28,7 @@ const BlogPostPage: React.FC = () => {
                     <header className="mb-12 text-center">
                         <div className="relative w-full h-64 md:h-80 rounded-2xl overflow-hidden mb-8 shadow-lg">
                             <div className="absolute inset-0 bg-deep-blue z-0"></div>
-                            <img src="blogimg1.png" alt="" />                            <div className="relative z-10 flex flex-col items-center justify-center h-full p-6 text-white text-center">
+                            <img src={blogcard} alt="" />                            <div className="relative z-10 flex flex-col items-center justify-center h-full p-6 text-white text-center">
                                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight shadow-text">Next-Gen SEO in 2025: AI-First, GEO & EEAT</h1>
                                 <p className="mt-4 text-lg font-medium">Published by Abbasel Marketing</p>
                             </div>

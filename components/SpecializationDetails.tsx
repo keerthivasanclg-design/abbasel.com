@@ -87,6 +87,10 @@
 
 import React from 'react';
 import { useInView } from '../hooks/useInView';
+import branding from "../asserts/branding.png";
+import socialmediamarketing from "../asserts/socialmediamarketing.png";
+import paidpromotion from "../asserts/paidpromotion.png";
+
 
 interface DetailCardProps {
   number: string;
@@ -146,7 +150,7 @@ const SpecializationDetails: React.FC = () => {
       description:
         'We develop and narrate brand stories that resonate with your belief systems. Your brand is easily identifiable, highly visible, and instantly recalled as a result of our strategic approach to storytelling. This approach fosters trust in your brand and promotes its global expansion.',
       imageUrl:
-        '',
+        branding,
       link: '#branding', // 🔗 custom link for first card
     },
     {
@@ -155,7 +159,7 @@ const SpecializationDetails: React.FC = () => {
       description:
         'With the goal of augmenting brand awareness and facilitating deeper audience engagement, we have crafted tailored marketing plans. Measurable outcomes and significant influence are achieved through a collaborative approach consisting of SMM, content marketing, as well as influencer and email marketing.',
       imageUrl:
-        '',
+        socialmediamarketing,
       link: '#social-media-marketing', // 🔗 second card link
     },
     {
@@ -164,7 +168,7 @@ const SpecializationDetails: React.FC = () => {
       description:
         'We implement tailored strategies and comprehensive cloud-based services to advertise your business on the social media platforms and search engines that your ideal clients use every day. This ensures that we meet their contact lens and comfort needs.',
       imageUrl:
-        '',
+        paidpromotion,
       link: '#social-media-marketing', // 🔗 third card link
     },
   ];

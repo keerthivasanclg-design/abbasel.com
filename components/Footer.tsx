@@ -67,9 +67,9 @@ const Footer: React.FC = () => {
           <div className="lg:col-span-1">
             <h3 className="text-xl font-bold mb-6">Info</h3>
             <div className="space-y-3 text-sm">
-              <p>500 Terry Francine Street,<br />San Francisco, CA 94158</p>
-              <p><a href="mailto:info@mysite.com" className="hover:underline">info@mysite.com</a></p>
-              <p><a href="tel:123-456-7890" className="hover:underline">123-456-7890</a></p>
+              <p><br /></p>
+              <p><a href="mailto:info@mysite.com" className="hover:underline">abbasel.official@gmail.com</a></p>
+              <p><a href="tel:123-456-7890" className="hover:underline">+91 93442 61682 </a></p>
             </div>
           </div>
         </div>

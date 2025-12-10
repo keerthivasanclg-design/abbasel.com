@@ -68,7 +68,7 @@ const Header: React.FC = () => {
         <div className="flex-1 md:text-center">
           
           <a href="#home" className="flex items-center justify-center gap-2 text-2xl font-bold text-gray-900 tracking-wide">
-            <img src={logo} className="w-6 h-6"  alt="" />
+            <img src={logo} className="w-6 h-6 rounded"  alt="" />
             <span> Abbasel</span>
           </a>
         </div>

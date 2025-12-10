@@ -1,20 +1,22 @@
 import React from 'react';
 import { useInView } from '../hooks/useInView';
+import adventurepost from "../asserts/adventurepost.png"
+import adventurepost2 from "../asserts/adventurepost2.png"
+import adventurepost3 from "../asserts/adventurepost3.png"
+
 
 const packages = [
     {
-       
-        imageUrl: 'image.png',
+        imageUrl: adventurepost,
     },
     {
-        
-        imageUrl: 'image copy.png',
+        imageUrl: adventurepost2,
     },
     {
-        
-        imageUrl: 'image copy 2.png',
+        imageUrl: adventurepost3,
     },
 ];
+
 
 type Package = typeof packages[0];
 
