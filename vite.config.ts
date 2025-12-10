@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
 
   return {
-    base: '/abbasel.com/', // <- match your GitHub repo name exactly
+    base: '/abbasel/', // <- match your GitHub repo name exactly
     plugins: [
       react(),
       tailwindcss()
